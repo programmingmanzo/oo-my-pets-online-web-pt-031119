@@ -4,8 +4,8 @@ class Owner
   @@all = [] 
   
   
-  def self.all(name) 
-    @@all << self.name 
+  def self.all
+    @@all << self
   end 
   
   
