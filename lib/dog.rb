@@ -1,6 +1,8 @@
 class Dog
   # code goes here
   
+  attr_accessor :mood 
+  
   def initialize(name)
     @name = name 
     self.mood = "nervous"
@@ -9,11 +11,5 @@ class Dog
   def name
     @name 
   end 
-  
-  def mood 
-    @mood
-  end 
-  
-  
   
 end
