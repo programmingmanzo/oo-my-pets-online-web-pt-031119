@@ -57,7 +57,7 @@ class Owner
       if species == :dogs 
         instances.each do |dog|
           dog.mood = "happy"
-          binding.pry 
+          #binding.pry 
         end
       end
     end 
