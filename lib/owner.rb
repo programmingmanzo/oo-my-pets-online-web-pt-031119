@@ -52,13 +52,10 @@ class Owner
     @pets[:dogs] << Dog.new(name_of_dog)
   end 
   
-  
-  
-  
-    
-  
-  
-  
-  
+  def walk_dogs 
+    @pets.collect do |species, instances|
+      binding.pry 
+    end 
+  end 
   
 end
