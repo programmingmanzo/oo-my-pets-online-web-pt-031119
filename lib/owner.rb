@@ -94,6 +94,5 @@ class Owner
         instances.clear
       end
     end 
-  end
   
 end
