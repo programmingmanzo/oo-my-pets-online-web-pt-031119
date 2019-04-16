@@ -1,7 +1,11 @@
 class Owner
   # code goes here
   
-  @@all = [] 
+  @@all = []
+  
+  def initialize(name)
+    @name =name 
+  end 
   
   
   def self.all
