@@ -54,7 +54,12 @@ class Owner
   
   def walk_dogs 
     @pets.collect do |species, instances|
-      binding.pry 
+      if species == :dogs 
+        instances.each do |dog|
+          dog.mood = "happy"
+          binding.pry 
+        end
+      end
     end 
   end 
   
