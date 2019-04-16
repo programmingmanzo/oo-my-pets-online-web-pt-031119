@@ -1,3 +1,5 @@
+require 'pry'
+
 class Owner
   # code goes here
   
@@ -21,7 +23,8 @@ class Owner
   end 
   
   def self.reset_all
-    @@reset_all = @@all.clear 
+    @@reset_all = @@all.clear
+    binding.pry 
   end 
   
 end
