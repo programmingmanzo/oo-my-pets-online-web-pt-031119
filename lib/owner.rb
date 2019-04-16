@@ -23,7 +23,8 @@ class Owner
   end 
   
   def self.reset_all
-    @@all.clear 
+    p @@all.clear 
+    
   end 
   
 end
