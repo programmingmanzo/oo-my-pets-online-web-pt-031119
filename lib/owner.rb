@@ -9,7 +9,7 @@ class Owner
   def initialize(name)
     @name = name
     @@all << self
-    @@count = self.name.to_i += 1 
+    @@count += 1 
     
   end 
   
