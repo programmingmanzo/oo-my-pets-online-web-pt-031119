@@ -35,7 +35,7 @@ class Owner
     #binding.pry 
   end 
   
-  def pets{}
+  def pets
     @pets = pets
   end 
   
