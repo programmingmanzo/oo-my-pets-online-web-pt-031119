@@ -10,7 +10,7 @@ class Owner
     @name = name
     @@all << self
     @@count += 1 
-    @@reset_all = @@all.delete 
+    @@reset_all = @@all. 
     
   end 
   
