@@ -31,7 +31,7 @@ class Owner
   end 
   
   def say_species 
-    @say_species = self.name 
+    @say_species = "I am a human."
     #binding.pry 
   end 
   
