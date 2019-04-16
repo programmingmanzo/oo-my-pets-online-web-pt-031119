@@ -35,8 +35,8 @@ class Owner
     #binding.pry 
   end 
   
-  def pets(hash)
-    @pets = pets
+  def pets
+    @pets
   end 
   
   
