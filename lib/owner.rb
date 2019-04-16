@@ -27,7 +27,7 @@ class Owner
   end 
   
   def species
-    @species = self 
+    @species = self.name  
   end 
   
   
