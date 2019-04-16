@@ -3,7 +3,7 @@ require 'pry'
 class Owner
   # code goes here
   
-  attr_accessor :name, :fish 
+  attr_accessor :name, :fish, :pets
   
   @@all = []
   @@count = 0 
