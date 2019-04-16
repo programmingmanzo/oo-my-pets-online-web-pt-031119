@@ -12,6 +12,7 @@ class Owner
     @name = name
     @@all << self
     @@count += 1 
+    @pets = {:fishes => [], :dogs => [], :cats => []}
   end 
   
   def self.all
