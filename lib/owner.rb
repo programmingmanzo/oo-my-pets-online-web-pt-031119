@@ -41,7 +41,10 @@ class Owner
   end 
   
   def buy_fish 
-    if self == Fish 
+    @pets[:fishes] << Fish.new(name_of_fish)
+  end 
+  
+  
   
   
   
