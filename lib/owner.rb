@@ -94,5 +94,11 @@ class Owner
         instances.clear
       end
     end 
+    
+    def list_pets 
+      num_dogs = @pets[:dogs].size 
+      num_cats = @pets[:cats].size 
+      num_fish = @pets[:fishes].size 
+      return "I have #{num_fish} fish, #{num_dogs} dog(s)"
   
 end
