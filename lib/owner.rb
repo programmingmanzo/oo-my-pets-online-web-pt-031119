@@ -3,7 +3,7 @@ require 'pry'
 class Owner
   # code goes here
   
-  attr_accessor :name 
+  attr_accessor :name, :fish 
   
   @@all = []
   @@count = 0 
@@ -39,6 +39,9 @@ class Owner
   def pets
     @pets
   end 
+  
+  def buy_fish 
+    if self == Fish 
   
   
   
