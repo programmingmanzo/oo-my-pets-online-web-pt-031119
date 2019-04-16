@@ -32,7 +32,7 @@ class Owner
   
   def say_species 
     @say_species = self.name 
-    binding.pry 
+    #binding.pry 
   end 
   
   
