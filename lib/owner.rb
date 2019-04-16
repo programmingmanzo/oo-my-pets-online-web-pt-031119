@@ -27,7 +27,7 @@ class Owner
   end 
   
   def species
-    @species
+    @species = self.new 
   end 
   
   
