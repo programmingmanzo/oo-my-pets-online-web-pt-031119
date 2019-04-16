@@ -12,7 +12,7 @@ class Owner
     @name = name
     @@all << self
     @@count += 1 
-    @@reset_all = @@count.clear 
+    @@reset_all = self.count.clear 
   end 
   
   def self.all
