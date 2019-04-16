@@ -31,7 +31,8 @@ class Owner
   end 
   
   def say_species 
-    @say_species
+    @say_species = self.name 
+    binding.pry 
   end 
   
   
