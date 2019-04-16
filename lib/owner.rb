@@ -26,8 +26,8 @@ class Owner
     @@count = 0
   end 
   
-  def species(specie)
-    @specie = specie 
+  def species
+    @species
   end 
   
   
