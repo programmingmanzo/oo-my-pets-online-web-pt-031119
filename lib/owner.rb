@@ -30,5 +30,9 @@ class Owner
     @species = self.name  
   end 
   
+  def say_species 
+    @say_species
+  end 
+  
   
 end
